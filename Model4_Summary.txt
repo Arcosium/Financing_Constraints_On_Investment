@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           inv_rate_win   R-squared:                       0.026
+Model:                            OLS   Adj. R-squared:                  0.025
+Method:                 Least Squares   F-statistic:                     17.64
+Date:                Mon, 01 Dec 2025   Prob (F-statistic):           2.13e-25
+Time:                        16:56:31   Log-Likelihood:                 14660.
+No. Observations:                9896   AIC:                        -2.930e+04
+Df Residuals:                    9887   BIC:                        -2.924e+04
+Df Model:                           8                                         
+Covariance Type:              cluster                                         
+=========================================================================================
+                            coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                -0.0045      0.018     -0.248      0.804      -0.040       0.031
+high_constraint_dummy    -0.0148      0.002     -6.231      0.000      -0.019      -0.010
+mp_tight                 -0.0028      0.002     -1.704      0.088      -0.006       0.000
+mp_loose                  0.0059      0.002      3.600      0.000       0.003       0.009
+inter_tight               0.0049      0.003      1.766      0.077      -0.001       0.010
+inter_loose              -0.0057      0.003     -1.881      0.060      -0.012       0.000
+roa_win                   0.0425      0.014      3.027      0.002       0.015       0.070
+size                      0.0020      0.001      2.887      0.004       0.001       0.003
+sales_growth_win          0.0145      0.002      6.434      0.000       0.010       0.019
+==============================================================================
+Omnibus:                     5252.317   Durbin-Watson:                   1.166
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            35617.970
+Skew:                           2.525   Prob(JB):                         0.00
+Kurtosis:                      10.802   Cond. No.                         499.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)

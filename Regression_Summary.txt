@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           inv_rate_win   R-squared:                       0.020
+Model:                            OLS   Adj. R-squared:                  0.019
+Method:                 Least Squares   F-statistic:                     15.62
+Date:                Mon, 01 Dec 2025   Prob (F-statistic):           1.74e-17
+Time:                        16:46:41   Log-Likelihood:                 14630.
+No. Observations:                9896   AIC:                        -2.925e+04
+Df Residuals:                    9889   BIC:                        -2.919e+04
+Df Model:                           6                                         
+Covariance Type:              cluster                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept           -0.0228      0.018     -1.287      0.198      -0.058       0.012
+cfcr_lag         -5.346e-06   1.14e-06     -4.690      0.000   -7.58e-06   -3.11e-06
+mp_shock             0.0009      0.001      1.453      0.146      -0.000       0.002
+interaction_term   7.14e-08   1.16e-06      0.061      0.951   -2.21e-06    2.35e-06
+roa_win              0.0735      0.014      5.196      0.000       0.046       0.101
+size                 0.0024      0.001      3.603      0.000       0.001       0.004
+sales_growth_win     0.0123      0.002      5.433      0.000       0.008       0.017
+==============================================================================
+Omnibus:                     5205.257   Durbin-Watson:                   1.161
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            34555.768
+Skew:                           2.506   Prob(JB):                         0.00
+Kurtosis:                      10.661   Cond. No.                     8.80e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
+[2] The condition number is large, 8.8e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

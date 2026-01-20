@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           inv_rate_win   R-squared:                       0.025
+Model:                            OLS   Adj. R-squared:                  0.025
+Method:                 Least Squares   F-statistic:                     22.99
+Date:                Mon, 01 Dec 2025   Prob (F-statistic):           4.01e-26
+Time:                        16:54:41   Log-Likelihood:                 14655.
+No. Observations:                9896   AIC:                        -2.930e+04
+Df Residuals:                    9889   BIC:                        -2.925e+04
+Df Model:                           6                                         
+Covariance Type:              cluster                                         
+=========================================================================================
+                            coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                -0.0067      0.018     -0.366      0.715      -0.042       0.029
+high_constraint_dummy    -0.0109      0.002     -7.203      0.000      -0.014      -0.008
+mp_shock                  0.0012      0.001      1.677      0.093      -0.000       0.003
+interaction_dummy         0.0001      0.001      0.094      0.925      -0.002       0.003
+roa_win                   0.0420      0.014      2.989      0.003       0.014       0.070
+size                      0.0020      0.001      2.844      0.004       0.001       0.003
+sales_growth_win          0.0146      0.002      6.457      0.000       0.010       0.019
+==============================================================================
+Omnibus:                     5248.041   Durbin-Watson:                   1.166
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            35515.059
+Skew:                           2.523   Prob(JB):                         0.00
+Kurtosis:                      10.789   Cond. No.                         499.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
